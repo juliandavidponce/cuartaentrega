@@ -1,0 +1,23 @@
+.textoreciclado{
+    color: white;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: "Comic Sans MS";
+    }
+.divArticulo{
+        display: flex;
+        flex-flow: row nowrap;
+        padding-top: 100px;
+    
+    }
+.primerArticulo{
+    
+        width: 600px;
+        height: 350px;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(17, 75, 9);
+        flex-basis: 1000px;
+        order: 1;
+    }

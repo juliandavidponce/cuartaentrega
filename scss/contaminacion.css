@@ -1,0 +1,22 @@
+.contenedor {
+  position: relative;
+  width: 800px;
+  height: 500px;
+}
+
+.contenedor div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.caja1 {
+  background-image: url(https://ichef.bbci.co.uk/news/640/cpsprodpb/A827/production/_96074034_528489727.jpg);
+  background-size: 100% 100%;
+}
+
+.caja1 .caja1:hover {
+  background-image: url(https://img.vixdata.io/pd/jpg-large/es/sites/default/files/btg/curiosidades.batanga.com/files/%20Como-se-forman-las-playas.jpg);
+  background-size: 100% 100%;
+}
+/*# sourceMappingURL=contaminacion.css.map */
