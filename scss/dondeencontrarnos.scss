@@ -1,0 +1,30 @@
+.divLugar{
+    display: flex; flex-direction: row;
+    justify-content: center
+    
+}
+.divLugar2{
+    display: flex; flex-direction: row;
+    justify-content: center
+
+}
+.lugar{
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(17, 75, 9);
+   order: 1;
+}
+@media (min-width: 351px) and (max-width:516px) {
+    .divLugar{
+        display: flex; flex-direction:column;
+        justify-content: center
+        
+    }
+    .divLugar2{
+        display: flex; flex-direction: column;
+        justify-content: center
+}
+}
+

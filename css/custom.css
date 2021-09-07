@@ -9,116 +9,6 @@ body {
   background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/leaves-pattern.png);
   background-size: 500px; }
 
-.paraReciclar {
-  background-color: #275227;
-  height: 500px;
-  width: 500px;
-  margin: 10px;
-  padding: 40px 100px 20px 100px; }
-
-.divPadre {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: stretch; }
-
-.divLugar {
-  display: flex;
-  flex-direction: row;
-  justify-content: center; }
-
-.lugar {
-  width: 400px;
-  height: 400px;
-  margin: 10px;
-  padding: 10px;
-  text-align: center;
-  background-color: #114b09;
-  flex-basis: 1000px;
-  order: 1; }
-
-.divReciclo {
-  display: flex;
-  flex-direction: row;
-  justify-content: center; }
-
-.queReciclo {
-  width: 400px;
-  height: 400px;
-  margin: 10px;
-  padding: 10px;
-  text-align: center;
-  background-color: #114b09;
-  flex-basis: 1000px;
-  order: 1; }
-
-.imagenQuereciclo {
-  width: 250px;
-  height: 250px; }
-
-.imagenQuereciclo:hover {
-  transform: scale(2, 2); }
-
-.gridPadre {
-  display: grid;
-  grid-template-columns: 1fr 2fr 3fr;
-  grid-template-rows: 2fr 2fr 2fr;
-  height: 80vh;
-  grid-gap: 10px;
-  padding: 10px;
-  background-color: blueviolet; }
-
-.hijogrid {
-  border: 2px solid black; }
-
-@media only screen and (min-width: 768px) {
-  .gridPadre {
-    display: grid;
-    grid-template-columns: 1fr 2fr 3fr;
-    grid-template-rows: 2fr 2fr 2fr;
-    height: 80vh;
-    grid-gap: 10px;
-    padding: 10px;
-    background-color: blueviolet; }
-  .hijogrid {
-    border: 2px solid black; } }
-
-@media only screen and (min-width: 768px) and (min-width: 768px) and (max-width: 1023px) {
-  .gridPadre {
-    display: grid;
-    grid-template-columns: 1fr 2fr 3fr;
-    grid-template-rows: 2fr 2fr 2fr;
-    height: 80vh;
-    grid-gap: 10px;
-    padding: 10px;
-    background-color: blueviolet; }
-  .hijogrid {
-    border: 2px solid black; } }
-
-@media only screen and (min-width: 768px) and (min-width: 1024px) {
-  .gridPadre {
-    display: grid;
-    grid-template-columns: 1fr 2fr 3fr;
-    grid-template-rows: 2fr 2fr 2fr;
-    height: 80vh;
-    grid-gap: 10px;
-    padding: 10px;
-    background-color: blueviolet; }
-  .hijogrid {
-    border: 2px solid black; } }
-
-@media only screen and (min-width: 768px) and (min-width: 320px) and (max-width: 767px) {
-  .gridPadre {
-    display: grid;
-    grid-template-columns: 1fr 2fr 3fr;
-    grid-template-rows: 2fr 2fr 2fr;
-    height: 80vh;
-    grid-gap: 10px;
-    padding: 10px;
-    background-color: blueviolet; }
-  .hijogrid {
-    border: 2px solid black; } }
-
 .logo {
   width: 350px;
   height: 50px; }
@@ -140,8 +30,9 @@ header {
   padding: 15px 5px 10px 5px;
   margin: 1px; }
 
-a {
-  color: white; }
+.itemlist a {
+  color: white;
+  text-decoration: none; }
 
 .itemList:hover {
   background-color: white; }
@@ -196,8 +87,15 @@ footer {
   font-size: 30px;
   padding-right: 250px; }
 
+@media (max-width: 600px) {
+  .imgBotella {
+    width: 1000px; } }
+
 .parrafoContaminacion {
-  font-family: 'Azeret Mono', monospace; }
+  font-family: 'Azeret Mono', monospace;
+  align-content: center;
+  padding: 50px;
+  padding-top: 75px; }
 
 .tituloContaminacion {
   text-align: center;
@@ -207,6 +105,14 @@ footer {
   text-transform: uppercase;
   padding-bottom: 100px;
   padding-top: 100px; }
+
+.articuloContaminacion {
+  display: flex;
+  flex-direction: row; }
+
+.imagenContaminacion2 {
+  width: 600px;
+  padding: 50px; }
 
 .formulario {
   text-align: center;
@@ -241,10 +147,38 @@ footer {
 
 .primerArticulo {
   width: 600px;
-  height: 350px;
+  height: 300px;
   margin: 10px;
   padding: 10px;
   text-align: center;
   background-color: #114b09;
   flex-basis: 1000px;
   order: 1; }
+
+.divLugar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.divLugar2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.lugar {
+  width: 500px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: #114b09;
+  order: 1; }
+
+@media (min-width: 351px) and (max-width: 516px) {
+  .divLugar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .divLugar2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; } }

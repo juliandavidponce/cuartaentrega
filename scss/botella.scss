@@ -24,6 +24,11 @@
 .divBotella3{
     font-size: 30px;
     padding-right: 250px;
-    
-
 }
+
+@media (max-width: 600px) {
+
+   .imgBotella {
+    width:1000px
+}
+  }
